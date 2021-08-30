@@ -44,11 +44,14 @@ Windows:
 
 Para usar <unyleya-front>, siga estas etapas:
   
- Dentro da client apos instalação das dependecias, digite o seguinte comando par iniciar 
+ Dentro da client apos instalação das dependecias, digite o seguinte comando par iniciar
 
 ```
 <npm start>
 ```
+  
+  Abra o Visual Studio Code e abra o arquivo .env
+  
 
 
 
