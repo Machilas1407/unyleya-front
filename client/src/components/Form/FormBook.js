@@ -34,7 +34,7 @@ function FormBook() {
     console.log(autores, generos.data, editoras)
     setLoading(false)
 
-    if (autores != [] && generos != [] && editoras != []) {
+    if (autores.length > 0 && generos.length > 0 && editoras.length > 0) {
       console.log("TEst")
       setForm({ ...form, autor_id: autores[0].id, genero_id: generos.data[0].id, editora_id: editoras[0].id })
     }

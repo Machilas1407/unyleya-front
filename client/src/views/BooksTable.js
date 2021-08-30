@@ -79,18 +79,19 @@ function LivrosTable() {
 
     }
 
-    const deletarLivro = (livro, index) => {
-        console.log(livro, index)
+    const deletarLivro = (livro,) => {
+        console.log(livro)
 
-        LivroAPI.deleteOne(livro.id)
+        LivroAPI.deleteOne(livro)
             .then((data) => {
                 console.log(data.data.sucess)
+                window.location.reload()
             })
-        let data = livros.filter((item) => {
-            return (item.id !== livro.id)
+        // let data = livros.filter((item) => {
+        //     return (item.id !== livro.id)
 
-        })
-        setLivros(data)
+        // })
+        // setLivros(data)
     }
 
     const openModal = (livro) => {

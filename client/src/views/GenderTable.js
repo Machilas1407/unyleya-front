@@ -89,7 +89,7 @@ function GenerosTable() {
                         <Alert.Heading>Apagar genero!</Alert.Heading>
                         <p>
                             Atenção, esse genero contém livros cadastrados a sua rede
-                            edite ou remova os livros antes de apagar a editora
+                            edite ou remova os livros antes de apagar o genero
                         </p>
                         <hr />
                         <div className="d-flex justify-content-end">
@@ -114,7 +114,7 @@ function GenerosTable() {
                                 <Form.Group>
                                     <Form.Label>Nome do Genero</Form.Label>
                                     <Form.Control onChange={(e) => setGeneroAux({ ...generoAux, nome: e.target.value })} value={generoAux.nome} type="text" placeholder="Nome do Genero" />
-                                    <Button onClick={(e) => enviar(e, generoAux.id, generoAux)}>Large modal</Button>
+                                    <Button onClick={(e) => enviar(e, generoAux.id, generoAux)}>Enviar</Button>
                                 </Form.Group>
                             </Form>
                         </Modal.Body>

@@ -132,7 +132,7 @@ function AutoresTable() {
                         <Alert.Heading>Apagar Autor!</Alert.Heading>
                         <p>
                             Atenção, esse autor contém livros cadastrados a sua rede
-                            edite ou remova os livros antes de apagar a editora
+                            edite ou remova os livros antes de apagar a autor
                         </p>
                         <hr />
                         <div className="d-flex justify-content-end">
