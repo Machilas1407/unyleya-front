@@ -18,7 +18,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente de `<ReactJS / NPM / Ferramenta de edição "Prefrencia Visual Studio Code" >`
 * Você tem uma máquina `<Windows / Linux / Mac>`. 
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando <unyleya-front>
 
 Para instalar o <unyleya-front>, siga estas etapas:
 Clone o reposiório,no terminal abra a pasta onde deseja realizar o download.
@@ -43,9 +43,11 @@ Windows:
 ## ☕ Usando <unyleya-front>
 
 Para usar <unyleya-front>, siga estas etapas:
+  
+ Dentro da client apos instalação das dependecias, digite o seguinte comando par iniciar 
 
 ```
-<dentro da client>
+<npm start>
 ```
 
 
