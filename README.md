@@ -20,7 +20,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Instalando <unyleya-front>
 
-Para instalar o `<unyleya-front>, siga estas etapas:
+Para instalar o `<unyleya-front>`, siga estas etapas:
 Clone o reposiório, no terminal abra a pasta onde deseja realizar o download.
   
  ```
